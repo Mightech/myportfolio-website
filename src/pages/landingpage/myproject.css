@@ -721,6 +721,7 @@
     background-color: rgb(124,59,237);
     color: white;
     display: flex;
+    font-size: 17px !important;
     justify-content: center;
     align-items: center;
     bottom: 5px;
@@ -782,7 +783,7 @@
     gap: 10px;
 }
 .live-demo-btn{
-    width:35%;
+    width:37%;
     height: 55%;
     border-radius:10px;
     border: 1px solid rgb(124,59,237);
@@ -792,14 +793,22 @@
     transition: all 350ms ease-in-out;
     color: rgb(124,59,237);
     gap: 7px;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 600;
     font-style: normal;
     padding: 5px;
 }
 .live-demo-btn:hover{
     background-color:rgb(124,59,237);
-    color: white;
+    color: white !important;
+}
+.live-demo-btn:active{
+    background-color:rgb(124,59,237);
+    color: white !important;
+}
+.live-demo-btn:focus{
+    background-color:rgb(124,59,237);
+    color: white !important;
 }
 .view-code-btn{
     width: 37%;

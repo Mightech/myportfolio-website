@@ -9,7 +9,7 @@ const Myproject = () => {
     const projectData = [
         {
             image:'/netflix-dark-background.png',
-            title:'Netflix Clone Landing page',
+            title:'Netflix Cl Landing page',
             subTitle:'My netflix clone landingpage showcasing skills and projects, built with React and CSS. Fully responsive with a clean design.',
             html:'REACT',
             css:'CSS',
@@ -18,7 +18,7 @@ const Myproject = () => {
                 frontend:"Frontend",
             links:[
                 {
-                    url:"https://netflix-clone-landingpage.vercel.app",
+                    url:"https://movies-webste-landingpage.vercel.app/",
                      liveDemoIcon:<LuSquareArrowOutUpRight />,
                      liveDemoText:'View Work',
                 },
@@ -57,7 +57,7 @@ const Myproject = () => {
         },
         {
             image:'/temperature-converter-dark-background.png',
-            title:'Temp Conversion Web App ',
+            title:'Temp Conv Web App ',
             subTitle:'My temp conversion web app showcasing skills and projects, built with HTML, CSS, and vanilla JavaScript. Fully responsive with a clean design.',
             html:'HTML',
             css:'CSS',
